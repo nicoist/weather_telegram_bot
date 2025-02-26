@@ -19,7 +19,7 @@ This project is a Telegram bot that provides users with real-time weather inform
 ## Installation:
 1. Clone the repository:
     ```bash
-    git clone https://github.com/username/weather-telegram-bot.git
+    git clone https://github.com/nicoist/weather-telegram-bot.git
     cd weather-telegram-bot
     ```
 
@@ -44,7 +44,4 @@ This project is a Telegram bot that provides users with real-time weather inform
 
 ## License:
 This project is licensed under the MIT License.
-
----
-
-Feel free to replace `username` with your GitHub username and adjust the description according to the specific details of your project.
+Feel free for use
