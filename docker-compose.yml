@@ -1,0 +1,14 @@
+services:
+  weather-bot:
+    build: .
+    ports:
+      - "8080:8080"
+    environment:
+      - BOT_API = telegram_bot_api_key
+      - WEATHER_API_KEY = OpenWeather_api_key
+      - DB_URL = your_bd_url
+      - LOG_FILE = your_bot.log_file
+    volumes:
+      - .:/app
+    restart: always
+
